@@ -450,10 +450,20 @@
 }
 
 #link1 {
-    height: 22px;
-    width: 100px;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -1px;
+    text-align: left;
+    color: rgba(47, 46, 65, 1);
+    background: linear-gradient(180deg, #f9f8f6 50%, #c5c2fe80 60%);
+    height: 30px;
+    width: 110px;
+    text-align: center;
     left: 0px;
     margin-top: -24px;
+    border: 0;
     border-radius: 0px;
     flex: none;
     order: 2;
@@ -511,7 +521,7 @@
     flex-grow: 0;    
 }
 
-#pricingcard1 {
+.pricingcard1 {
     height: 330px;
     width: 220px;
     left: 0px;
@@ -547,6 +557,7 @@
     order: 0;
     flex-grow: 0;
     color: rgba(113, 112, 130, 1);
+    margin-right: 20px;
 }
 
 #free {
@@ -569,7 +580,7 @@
 
 #frame {
     height: 125px;
-    width: 135px;
+    width: 200px;
     border-radius: 0px;
     flex: none;
     order: 2;
@@ -619,15 +630,112 @@ h5 {
     font-weight: 700;
     line-height: 19px;
     letter-spacing: 0px;
+    text-align: center;   
+}
+
+.two {
+    background: rgba(108, 99, 255, 1);
+    height: 400px;
+}
+
+#premium {
+    color: rgba(255, 255, 255, 1);
+    font-family: Open Sans;
+    font-size: 18px;
+    margin-bottom: -25px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+#month {
+    color: rgba(255, 255, 255, 1);
+    font-family: Open Sans;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 56px;
+    margin-bottom: 70px;
+    letter-spacing: -2px;
+    text-align: center;
+    height: 0px;
+}
+#frame1 {
+    height: 106px;
+    width: 184px;
+    left: 89.5px;
+    top: 232px;
+    border-radius: 0px;
+           
+}
+#analysis{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 0px;
+    letter-spacing: 0px;
+    text-align: center;
+    top: ;
+}
+#supp1 {
+    color: rgba(255, 255, 255, 0.8);
+
+}
+#serv {
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: -18px;  
+}
+#get4 {
+    margin-top: 30px;
+    height: 54px;
+    width: 186px;
+    left: 88.5px;
+    top: 378px;
+    border-radius: 2px;
+    padding: 16px 30px 16px 30px;
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(255, 255, 255, 1);
+    color: rgba(108, 99, 255, 1);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0px;
     text-align: center;
     
 }
-
-
+#enterprise {
+    color: rgba(113, 112, 130, 1);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-top: 20px;    
+}
+span {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: rgba(47, 46, 65, 1);
+}
+#span2 {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
 
 #banner {
     background: rgba(47, 46, 65, 1);
-
     height: 296px;
     width: 810px;
     margin-left: 80px;
